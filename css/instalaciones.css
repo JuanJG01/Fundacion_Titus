@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: darkgoldenrod;
+}
+
+header {
+    background-color: orange;
+    padding: 20px;
+}
+
+#menu {
+    position: fixed;
+    top: 0;
+    left: -250px; /* Oculta el menú por defecto */
+    width: 250px;
+    height: 100%;
+    background-color: orange;
+    transition: left 0.3s ease;
+}
+
+#menu.active {
+    left: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: white;
+}
+
+section {
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+
+.gallery {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.gallery-image {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.gallery-image.active {
+    display: flex;
+}
+
+.gallery-controls {
+    display: flex;
+}
