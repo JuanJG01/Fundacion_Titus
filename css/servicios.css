@@ -45,57 +45,12 @@ nav ul li a:hover {
     background-color: white;
 }
 
-section {
-    padding: 20px;
-}
-h1 {
-    color: white;
-}
-
-h2 {
-    color: white;
-}
-
-a {
-    color: white;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-.portada{
-    height: 150px;
-    width: 1310px;
-}
-p{
-color: white;
-}
 #red{
     height: 4%;
     width: 8%;
 }
-
-/* Agrega estilos para la galería de imágenes según sea necesario */
-
-.gallery {
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 20px;
-}
-
-.gallery-image {
-    display: none;
-    justify-content: center;
-    align-items: center;
-    width: 60%;
-}
-
-.gallery-image.active {
-    display: flex;
-}
-
-.gallery-controls {
-    display: flex;
+#pie{
+    font-size: 0.70em
 }
 .foot{
     background-color: #333; 
@@ -103,7 +58,4 @@ color: white;
     padding: 20px;
     width: 97%; 
     bottom: 0;
-}
-#pie{
-    font-size: 0.70em
 }
